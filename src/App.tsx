@@ -148,7 +148,7 @@ export default function App() {
       {/* Background Audio */}
       <audio 
         ref={audioRef}
-        src="/Song/Golden Brown - The Stranglers Best part (slowedreverb).mp3" 
+        src="Song/Golden Brown - The Stranglers Best part (slowedreverb).mp3" 
         loop
       />
 
@@ -434,12 +434,12 @@ export default function App() {
               >
                 <h3 className="text-4xl font-extrabold text-hk-hot-pink text-center [text-shadow:1px_1px_0_white]">Our Magical Moments ✨</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                  {[
-                    { title: "Our First Date", color: "bg-hk-pink", img: "/Pictures/1.jpg", tint: "bg-hk-pink/30" },
-                    { title: "Our First Date", color: "bg-hk-pink", img: "/Pictures/2.jpg", tint: "bg-hk-pink/30" },
-                    { title: "My Soulmate 💖", color: "bg-hk-hot-pink", img: "/Pictures/3.jpg", tint: "bg-hk-hot-pink/30" },
-                    { title: "Always & Forever 💍", color: "bg-hk-red", img: "/Pictures/4.jpg", tint: "bg-hk-red/30" },
-                  ].map((photo, i) => (
+                    {[
+                      { title: "Our First Date", color: "bg-hk-pink", img: "Pictures/1.jpg", tint: "bg-hk-pink/30" },
+                      { title: "Our First Date", color: "bg-hk-pink", img: "Pictures/2.jpg", tint: "bg-hk-pink/30" },
+                      { title: "My Soulmate 💖", color: "bg-hk-hot-pink", img: "Pictures/3.jpg", tint: "bg-hk-hot-pink/30" },
+                      { title: "Always & Forever 💍", color: "bg-hk-red", img: "Pictures/4.jpg", tint: "bg-hk-red/30" },
+                    ].map((photo, i) => (
                     <motion.div
                       key={i}
                       whileHover={{ rotate: i % 2 === 0 ? 5 : -5, scale: 1.05 }}
