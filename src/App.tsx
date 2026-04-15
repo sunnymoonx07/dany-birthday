@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { Heart, Gift, Music, Music2, Volume2, VolumeX, Star, Sparkles, Calendar, Flower, Flower2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
